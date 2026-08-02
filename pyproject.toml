@@ -4,7 +4,7 @@ authors = [
     { name = "volt", email = "volt@gmail.com"}
 ]
 description = "new"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 readme = "README.md"
 dynamic = ["version"]
 dependencies = [
