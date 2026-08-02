@@ -1,0 +1,92 @@
+[
+ {
+  "app": "si_sop",
+  "charts": [],
+  "content": "[]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": null,
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "SI SOP",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "SiSop Users",
+    "link_count": 0,
+    "link_to": "SiSopUsers",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "SiSop Departments",
+    "link_count": 0,
+    "link_to": "SiSopDepartments",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "SiSop Documents",
+    "link_count": 0,
+    "link_to": "SiSopDocument",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   }
+  ],
+  "modified": "2026-08-02 20:58:43.158653",
+  "module": "si_sop",
+  "name": "SI SOP",
+  "number_cards": [
+   {
+    "label": "Total Si/Sop s",
+    "number_card_name": "Si Sop Total"
+   },
+   {
+    "label": "Total Si s",
+    "number_card_name": "Si Count"
+   },
+   {
+    "label": "Total Sop s",
+    "number_card_name": "Sop Count"
+   }
+  ],
+  "parent_page": "SI SOP",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 0.0,
+  "shortcuts": [],
+  "title": "SI SOP",
+  "type": "Workspace"
+ }
+]

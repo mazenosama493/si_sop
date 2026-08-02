@@ -5,6 +5,72 @@ app_description = "new"
 app_email = "volt@gmail.com"
 app_license = "mit"
 
+
+
+
+
+fixtures = [
+    {
+        "dt": "Workspace",
+        "filters": [["module", "=", "si_sop"]]
+    },
+    {
+        "dt": "Workspace Sidebar",
+        "filters": [["module", "=", "si_sop"]]
+    },
+    {
+        "dt": "Desktop Icon",
+        "filters": [["label", "=", "si_sop"]]
+    },
+    {
+        "dt": "Dashboard Chart",
+        "filters": [["module", "=", "si_sop"]]
+    },
+    {
+        "dt": "Number Card",
+        "filters": [["module", "=", "si_sop"]]
+    },
+    {
+        "dt": "Notification",
+        "filters": [["module", "=", "si_sop"]]
+    },
+    {
+        "dt": "Role",
+        "filters": [
+            [
+                "role_name",
+                "in",
+                [
+                    "SI SOP Manager",
+                    "SI SOP User"
+                ]
+            ]
+        ]
+    },
+    {
+        "dt": "Custom DocPerm",
+        "filters": [
+            [
+                "role",
+                "in",
+                [
+                    "SI SOP Manager",
+                    "SI SOP User"
+                ]
+            ]
+        ]
+    },
+    {
+        "dt": "Client Script"
+    },
+    {
+        "dt": "Custom Field"
+    },
+    {
+        "dt": "Property Setter"
+    }
+]
+
 # Apps
 # ------------------
 

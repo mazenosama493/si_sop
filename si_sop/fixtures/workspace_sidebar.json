@@ -1,0 +1,79 @@
+[
+ {
+  "app": "si_sop",
+  "docstatus": 0,
+  "doctype": "Workspace Sidebar",
+  "for_user": null,
+  "header_icon": "notebook-text",
+  "items": [
+   {
+    "child": 0,
+    "collapsible": 1,
+    "display_depends_on": null,
+    "filters": null,
+    "icon": "notepad-text",
+    "indent": 0,
+    "keep_closed": 0,
+    "label": "Si Sop",
+    "link_to": "SI SOP",
+    "link_type": "Workspace",
+    "route_options": null,
+    "show_arrow": 0,
+    "type": "Link",
+    "url": null
+   },
+   {
+    "child": 0,
+    "collapsible": 1,
+    "display_depends_on": null,
+    "filters": null,
+    "icon": "users-round",
+    "indent": 0,
+    "keep_closed": 0,
+    "label": "Si Sop Users",
+    "link_to": "SiSopUsers",
+    "link_type": "DocType",
+    "route_options": null,
+    "show_arrow": 0,
+    "type": "Link",
+    "url": null
+   },
+   {
+    "child": 0,
+    "collapsible": 1,
+    "display_depends_on": null,
+    "filters": null,
+    "icon": "house",
+    "indent": 0,
+    "keep_closed": 0,
+    "label": "Si Sop Departments",
+    "link_to": "SiSopDepartments",
+    "link_type": "DocType",
+    "route_options": null,
+    "show_arrow": 0,
+    "type": "Link",
+    "url": null
+   },
+   {
+    "child": 0,
+    "collapsible": 1,
+    "display_depends_on": null,
+    "filters": null,
+    "icon": "book-open-check",
+    "indent": 0,
+    "keep_closed": 0,
+    "label": "Si Sop Documents",
+    "link_to": "SiSopDocument",
+    "link_type": "DocType",
+    "route_options": null,
+    "show_arrow": 0,
+    "type": "Link",
+    "url": null
+   }
+  ],
+  "modified": "2026-08-02 20:16:40.183532",
+  "module": "si_sop",
+  "name": "Si Sop",
+  "title": "Si Sop"
+ }
+]
