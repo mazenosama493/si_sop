@@ -1,0 +1,22 @@
+{
+ "app": "si_sop",
+ "bg_color": "gray",
+ "creation": "2026-08-03 10:55:21.925113",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_image": "/private/files/sisop.png",
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Si Sop",
+ "link_to": "Si Sop",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-08-03 11:09:58.988546",
+ "modified_by": "Administrator",
+ "name": "Si Sop",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "sidebar": "Si Sop",
+ "standard": 1
+}

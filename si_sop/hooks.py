@@ -20,7 +20,7 @@ fixtures = [
     },
     {
         "dt": "Desktop Icon",
-        "filters": [["label", "=", "si_sop"]]
+        "filters": [["label", "=", "Si Sop"]]
     },
     {
         "dt": "Dashboard Chart",

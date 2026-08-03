@@ -1,8 +1,13 @@
 {
  "app": "si_sop",
- "charts": [],
- "content": "[]",
- "creation": "2026-08-02 19:16:12.990845",
+ "charts": [
+  {
+   "chart_name": "SI/SOP Documents Group By Type",
+   "label": "SI/SOP Documents Group By Type"
+  }
+ ],
+ "content": "[{\"id\":\"RVJycfbbQe\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SI SOP workspace</span>\",\"col\":12}},{\"id\":\"qi2sOFu4nZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SI SOP Dashboard\",\"col\":3}},{\"id\":\"sunB7PGDDD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Number cards</b></span>\",\"col\":12}},{\"id\":\"zyLKbcONF9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Si Documents Total\",\"col\":4}},{\"id\":\"HPGx5PwIV6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sop Documents Total\",\"col\":4}},{\"id\":\"nR_-oyUqhg\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Si/Sop Documents Total\",\"col\":4}},{\"id\":\"yYTWhpIufL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Charts</b></span>\",\"col\":12}},{\"id\":\"ECjCMk4XTq\",\"type\":\"chart\",\"data\":{\"chart_name\":\"SI/SOP Documents Group By Type\",\"col\":12}}]",
+ "creation": "2026-08-03 11:14:20.222140",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -44,22 +49,22 @@
    "type": "Link"
   }
  ],
- "modified": "2026-08-02 20:58:43.158653",
+ "modified": "2026-08-03 11:57:17.448993",
  "modified_by": "Administrator",
  "module": "si_sop",
  "name": "SI SOP",
  "number_cards": [
   {
-   "label": "Total Si/Sop s",
-   "number_card_name": "Si Sop Total"
-  },
-  {
-   "label": "Total Si s",
+   "label": "Si Documents Total",
    "number_card_name": "Si Count"
   },
   {
-   "label": "Total Sop s",
+   "label": "Sop Documents Total",
    "number_card_name": "Sop Count"
+  },
+  {
+   "label": "Si/Sop Documents Total",
+   "number_card_name": "Si Sop Total"
   }
  ],
  "owner": "Administrator",
@@ -68,7 +73,15 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 0.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "SI SOP Dashboard",
+   "type": "URL",
+   "url": "http://localhost:8000/desk/si-sop"
+  }
+ ],
  "title": "SI SOP",
  "type": "Workspace"
 }

@@ -39,7 +39,8 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Document Type",
-   "options": "SOP\nSI"
+   "options": "SOP\nSI",
+   "search_index": 1
   },
   {
    "fieldname": "title",
@@ -51,7 +52,8 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Status",
-   "options": "Draft\nUnder Review\nApproved\nObsolete"
+   "options": "Draft\nUnder Review\nApproved\nObsolete",
+   "search_index": 1
   },
   {
    "fieldname": "departments_section",
@@ -62,7 +64,8 @@
    "fieldname": "departments",
    "fieldtype": "Table",
    "label": "Departments",
-   "options": "DocumentDepartment"
+   "options": "DocumentDepartment",
+   "search_index": 1
   },
   {
    "fieldname": "users_section",
@@ -73,7 +76,8 @@
    "fieldname": "users",
    "fieldtype": "Table",
    "label": "Users",
-   "options": "DocumentUser"
+   "options": "DocumentUser",
+   "search_index": 1
   },
   {
    "fieldname": "dates_section",
@@ -89,7 +93,8 @@
    "fieldname": "approval_date",
    "fieldtype": "Date",
    "in_list_view": 1,
-   "label": "Approval Date"
+   "label": "Approval Date",
+   "search_index": 1
   },
   {
    "fieldname": "content_section",
@@ -106,7 +111,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-02 13:22:48.787429",
+ "modified": "2026-08-03 11:50:51.416736",
  "modified_by": "Administrator",
  "module": "si_sop",
  "name": "SiSopDocument",
