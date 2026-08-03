@@ -3,7 +3,7 @@
   "app": "si_sop",
   "charts": [
    {
-    "chart_name": "SI/SOP Documents Group By Type",
+    "chart_name": "SI SOP Documents Group By Type",
     "label": "SI/SOP Documents Group By Type"
    }
   ],
