@@ -19,6 +19,7 @@
   "dates_section",
   "issue_date",
   "approval_date",
+  "unknown_approval_date",
   "content_section",
   "content"
  ],
@@ -47,6 +48,7 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Title",
    "reqd": 1
   },
@@ -109,14 +111,19 @@
   {
    "fieldname": "content",
    "fieldtype": "Text Editor",
-   "in_list_view": 1,
    "label": "Content"
+  },
+  {
+   "default": "0",
+   "fieldname": "unknown_approval_date",
+   "fieldtype": "Check",
+   "label": "Unknown Approval Date"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-04 08:27:48.071836",
+ "modified": "2026-08-04 16:09:02.030939",
  "modified_by": "Administrator",
  "module": "si_sop",
  "name": "SiSopDocument",

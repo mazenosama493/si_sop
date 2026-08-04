@@ -34,7 +34,7 @@ class SiSopDocument(Document):
             if self.approval_date < self.issue_date:
                 frappe.throw(_("Approval Date cannot be before Issue Date."))
 
-        if self.status == "Approved" and not self.approval_date:
+        if self.status == "Approved" and not self.unknown_approval_date and not self.approval_date:
             frappe.throw(_("Approval Date is mandatory for approved documents."))
 
     def validate_departments(self):
