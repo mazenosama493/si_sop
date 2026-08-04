@@ -2,7 +2,7 @@
  "actions": [],
  "allow_bulk_edit": 1,
  "allow_rename": 1,
- "autoname": "format:DC-{YYYY}-{MM}-{DD}-.#####",
+ "autoname": "DC-.YYYY.-.MM.-.DD.-.#####",
  "creation": "2026-08-02 13:01:16.581551",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -32,7 +32,9 @@
    "fieldname": "document_number",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Document Number"
+   "label": "Document Number",
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "document_type",
@@ -45,7 +47,8 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Title"
+   "label": "Title",
+   "reqd": 1
   },
   {
    "fieldname": "status",
@@ -65,6 +68,7 @@
    "fieldtype": "Table",
    "label": "Departments",
    "options": "DocumentDepartment",
+   "reqd": 1,
    "search_index": 1
   },
   {
@@ -77,6 +81,7 @@
    "fieldtype": "Table",
    "label": "Users",
    "options": "DocumentUser",
+   "reqd": 1,
    "search_index": 1
   },
   {
@@ -111,11 +116,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-03 11:50:51.416736",
+ "modified": "2026-08-04 08:27:48.071836",
  "modified_by": "Administrator",
  "module": "si_sop",
  "name": "SiSopDocument",
- "naming_rule": "Expression (old style)",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
