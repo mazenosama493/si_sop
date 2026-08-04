@@ -1,13 +1,8 @@
 {
  "app": "si_sop",
- "charts": [
-  {
-   "chart_name": "SI/SOP Documents Group By Type",
-   "label": "SI/SOP Documents Group By Type"
-  }
- ],
- "content": "[{\"id\":\"RVJycfbbQe\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SI SOP workspace</span>\",\"col\":12}},{\"id\":\"qi2sOFu4nZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SI SOP Dashboard\",\"col\":3}},{\"id\":\"sunB7PGDDD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Number cards</b></span>\",\"col\":12}},{\"id\":\"zyLKbcONF9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Si Documents Total\",\"col\":4}},{\"id\":\"HPGx5PwIV6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sop Documents Total\",\"col\":4}},{\"id\":\"nR_-oyUqhg\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Si/Sop Documents Total\",\"col\":4}},{\"id\":\"yYTWhpIufL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Charts</b></span>\",\"col\":12}},{\"id\":\"ECjCMk4XTq\",\"type\":\"chart\",\"data\":{\"chart_name\":\"SI/SOP Documents Group By Type\",\"col\":12}}]",
- "creation": "2026-08-03 11:14:20.222140",
+ "charts": [],
+ "content": "[{\"id\":\"RVJycfbbQe\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SI SOP workspace</span>\",\"col\":12}},{\"id\":\"qi2sOFu4nZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SI SOP Dashboard\",\"col\":3}},{\"id\":\"sunB7PGDDD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Number cards</b></span>\",\"col\":12}},{\"id\":\"zyLKbcONF9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Si Documents Total\",\"col\":4}},{\"id\":\"HPGx5PwIV6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sop Documents Total\",\"col\":4}},{\"id\":\"nR_-oyUqhg\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Si/Sop Documents Total\",\"col\":4}}]",
+ "creation": "2026-08-04 09:06:30.708965",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -49,7 +44,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-08-03 11:57:17.448993",
+ "modified": "2026-08-04 09:09:06.765510",
  "modified_by": "Administrator",
  "module": "si_sop",
  "name": "SI SOP",
@@ -79,7 +74,7 @@
    "doc_view": "List",
    "label": "SI SOP Dashboard",
    "type": "URL",
-   "url": "http://localhost:8000/desk/si-sop"
+   "url": "/insights/dashboards/j7ceg4gq0g"
   }
  ],
  "title": "SI SOP",
