@@ -10,20 +10,7 @@ class SiSopDocument(Document):
         self.validate_dates()
         self.validate_departments()
         self.validate_users()
-        self.validate_content()
-        self.validate_approved_person()
 
-		
-    def validate_approved_person(self):
-        if self.status != "Approved":
-            return
-
-        approved_users = [user for user in self.users if user.role=="Approved By"]
-
-        if len(approved_users) == 0:
-            frappe.throw(
-                _("An approved document must have one approved person.")
-            )
 
     def validate_document_type(self):
         if self.document_type not in ("SOP", "SI"):
@@ -44,7 +31,3 @@ class SiSopDocument(Document):
     def validate_users(self):
         if not self.users:
             frappe.throw(_("Please add at least one User."))
-
-    def validate_content(self):
-        if self.status == "Approved" and not self.content:
-            frappe.throw(_("Content is mandatory before approving the document."))
