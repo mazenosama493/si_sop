@@ -69,9 +69,25 @@
     "show_arrow": 0,
     "type": "Link",
     "url": null
+   },
+   {
+    "child": 0,
+    "collapsible": 1,
+    "filters": null,
+    "icon": "book-type",
+    "indent": 0,
+    "keep_closed": 0,
+    "label": "Si Sop Document Type",
+    "link_to": "SISOP Document Type",
+    "link_type": "DocType",
+    "navigate_to_tab": null,
+    "route_options": null,
+    "show_arrow": 0,
+    "type": "Link",
+    "url": null
    }
   ],
-  "modified": "2026-08-02 20:16:40.183532",
+  "modified": "2026-08-13 14:53:55.471824",
   "module": "si_sop",
   "module_onboarding": null,
   "name": "Si Sop",

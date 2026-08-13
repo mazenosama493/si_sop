@@ -39,10 +39,10 @@
   },
   {
    "fieldname": "document_type",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Document Type",
-   "options": "SOP\nSI\nPolicy",
+   "options": "SISOP Document Type",
    "search_index": 1
   },
   {
@@ -123,7 +123,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-05 14:36:51.728149",
+ "modified": "2026-08-13 14:50:49.244323",
  "modified_by": "Administrator",
  "module": "si_sop",
  "name": "SiSopDocument",
