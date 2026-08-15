@@ -13,8 +13,18 @@ class SiSopDocument(Document):
 
 
     def validate_document_type(self):
-        if self.document_type not in ("SOP", "SI" ,"Policy"):
-            frappe.throw(_("Document Type must be SOP, SI, or Policy."))
+        if not self.document_type:
+            frappe.throw(_("Document Type is required."))
+
+        if not frappe.db.exists(
+            "SI/SOP Document Type",
+            self.document_type
+        ):
+            frappe.throw(
+                _("Document Type '{0}' does not exist.").format(
+                    self.document_type
+                )
+            )
 
     def validate_dates(self):
         if self.issue_date and self.approval_date:
