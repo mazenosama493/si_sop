@@ -17,7 +17,7 @@ class SiSopDocument(Document):
             frappe.throw(_("Document Type is required."))
 
         if not frappe.db.exists(
-            "SI/SOP Document Type",
+            "SISOP Document Type",
             self.document_type
         ):
             frappe.throw(
